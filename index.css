@@ -143,3 +143,43 @@ section {
   list-style: none;
   padding: 0;
 }
+
+/* =========================
+   TABLET
+========================= */
+@media (min-width: 600px) {
+
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  section {
+    padding: 40px;
+  }
+
+}
+
+
+/* =========================
+   DESKTOP
+========================= */
+@media (min-width: 900px) {
+
+  body {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  section {
+    max-width: 900px;
+    margin: 60px auto;
+  }
+
+}
