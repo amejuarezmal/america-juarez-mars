@@ -158,3 +158,35 @@ section {
   padding: 8px 14px;
   border-radius: 20px;
 }
+
+/* Labels */
+#leave_message label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+/* Inputs + textarea */
+#leave_message input,
+#leave_message textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-family: inherit;
+}
+
+/* Button */
+#leave_message button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #c85c2e;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#leave_message button:hover {
+  background-color: #a94a22;
+}
