@@ -143,3 +143,18 @@ section {
   list-style: none;
   padding: 0;
 }
+
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  background-color: #2f6f5e;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
